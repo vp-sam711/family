@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ways you can support our family and our child's journey.">
+  <title>How You Can Help | Our Family</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">💙 Our Family</a>
+
+      <button class="menu-button" aria-label="Open menu" onclick="toggleMenu()">
+        ☰
+      </button>
+
+      <nav id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="support.html">How You Can Help</a>
+        <a href="resources.html">Resources & Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container narrow">
+        <span class="eyebrow">GET INVOLVED</span>
+        <h1>How You Can Help</h1>
+        <p>
+          There are many ways to support a family. Choose whatever feels
+          comfortable and meaningful to you.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cards help-cards">
+
+          <article class="card">
+            <div class="icon">📣</div>
+            <h2>Share Our Story</h2>
+            <p>
+              One of the easiest ways to help is simply to share this website
+              with friends, family, community groups, or organizations that
+              may be able to help.
+            </p>
+            <button class="button primary" onclick="sharePage()">
+              Share This Page
+            </button>
+          </article>
+
+          <article class="card">
+            <div class="icon">🎁</div>
+            <h2>Financial Support</h2>
+            <p>
+              If you would like to contribute financially, you can add your
+              trusted fundraising or donation link below.
+            </p>
+
+            <!-- Replace # with your fundraising URL -->
+            <a href="#" class="button primary"
+               onclick="alert('Add your fundraising link in support.html first.'); return false;">
+              Support Our Family
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="icon">🤝</div>
+            <h2>Offer Resources</h2>
+            <p>
+              Do you know about local programs, educational resources,
+              activities, therapists, support groups, or community services?
+              We would love to hear from you.
+            </p>
+            <a href="resources.html#contact" class="button secondary">
+              Contact Us
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="icon">💌</div>
+            <h2>Send Encouragement</h2>
+            <p>
+              A kind message can make a difficult day a little easier.
+              Thank you for supporting our family with understanding and
+              compassion.
+            </p>
+            <a href="resources.html#contact" class="button secondary">
+              Send a Message
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-section">
+      <div class="container narrow">
+        <span class="eyebrow">A NOTE FROM OUR FAMILY</span>
+        <h2>Support doesn't have to be complicated.</h2>
+
+        <p>
+          We appreciate every person who takes time to understand our child's
+          needs and see the person behind the diagnosis.
+        </p>
+
+        <p>
+          Thank you for helping us create a more supportive and accepting
+          community.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Our Family. Made with 💙.</p>
+      <p>Please respect our family's privacy.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
